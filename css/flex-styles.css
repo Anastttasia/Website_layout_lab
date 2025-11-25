@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    position: relative;
+    background-color: #f8f9fa;
+}
+
+header{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+h3{
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem
+}
+
+.banner{
+    position: absolute;
+    top: 0;
+    width: 75%;
+    max-width: 75%;
+    height: 250px;
+    background-color: rgb(255, 99, 71);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.wrapper{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.card{
+    width: 100%;
+    max-width: 100%;
+    min-width: 250px;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.discription_card{
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+
+@media (max-width: 950px) {
+   .wrapper{
+    flex-wrap: wrap;
+} 
+}

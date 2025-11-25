@@ -27,3 +27,19 @@
 
 ![alt text](/img/For_readme/Screenshot_3.png)
 ![alt text](/img/For_readme/Screenshot_4.png)
+
+# 4_лабораторная_работа
+- [x] Корректное использование Flexbox для карточек и навигации
+![alt text](/img/For_readme/Screenshot_5.png)
+![alt text](/img/For_readme/Screenshot_8.png)
+- [x] Адаптивность через flex-wrap
+- [x] Правильное применение position: absolute без сдвига контента
+- [x] Чистый, читаемый CSS без избыточных стилей
+- [x] Визуальная целостность и иерархи
+
+Рекомендации:
+•	Используйте гибкие единицы: rem, %
+•	Протестируйте макет в DevTools → попробуйте изменить ширину окна
+![alt text](/img/For_readme/Screenshot_6.png)
+![alt text](/img/For_readme/Screenshot_7.png)
+•	Убедитесь, что карточки не выходят за границы и не наезжают друг на друга
