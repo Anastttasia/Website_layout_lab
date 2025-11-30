@@ -43,3 +43,14 @@
 ![alt text](/img/For_readme/Screenshot_6.png)
 ![alt text](/img/For_readme/Screenshot_7.png)
 -	Убедитесь, что карточки не выходят за границы и не наезжают друг на друга
+
+# 5_лабораторная_работа
+- [x] Соблюдён mobile-first подход
+- [x] Корректные breakpoints (768px, 1024px)
+- [x] Адаптивная компоновка карточек
+- [x] Гибкие изображения и контейнеры
+- [x] Улучшенная типографика и отступы на больших экранах
+- [x] Наличие viewport meta tag
+
+![alt text](/img/For_readme/Screenshot_9.png)
+![alt text](/img/For_readme/Screenshot_10.png)
