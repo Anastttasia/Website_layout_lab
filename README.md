@@ -69,12 +69,17 @@
 
 - Портфолио (галерея):
 -	На десктопе: 3 колонки
+
 ![alt text](/img/For_readme/Screenshot_11.png)
 -	На мобильных: 1 колонка
+
 ![alt text](/img/For_readme/Screenshot_12.png)
 
 - Блок «О себе»:
 -	Текст слева, фото справа (на десктопе)
+
 ![alt text](/img/For_readme/Screenshot_14.png)
+
 -	На мобильных — фото сверху, текст снизу
+
 ![alt text](/img/For_readme/Screenshot_13.png)
