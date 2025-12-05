@@ -54,3 +54,27 @@
 
 ![alt text](/img/For_readme/Screenshot_9.png)
 ![alt text](/img/For_readme/Screenshot_10.png)
+
+# 6_лабораторная_работа
+- [x] Соблюдён mobile-first подход
+- [x] Корректное использование grid-template-areas
+- [x] Адаптивная галерея через auto-fit/minmax
+- [x] Комбинация Grid (макет) + Flexbox (внутри компонентов)
+- [x] Семантическая HTML-структура
+- [x]Визуальная целостность и читаемость
+
+
+Рекомендации:
+•	Протестируйте макет в DevTools → проверьте, как он ведёт себя при изменении ширины
+
+- Портфолио (галерея):
+•	На десктопе: 3 колонки
+![alt text](/img/For_readme/Screenshot_11.png)
+•	На мобильных: 1 колонка
+![alt text](/img/For_readme/Screenshot_12.png)
+
+- Блок «О себе»:
+•	Текст слева, фото справа (на десктопе)
+![alt text](/img/For_readme/Screenshot_14.png)
+•	На мобильных — фото сверху, текст снизу
+![alt text](/img/For_readme/Screenshot_13.png)
