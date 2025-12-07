@@ -97,3 +97,8 @@
 ![alt text](/img/For_readme/Screenshot_16.png)
 
 - [x] Макет корректен в 3+ браузерах
+
+Рекомендации:
+-	Цель: оценка ≥ 90/100 по доступности
+
+![alt text](/img/For_readme/Screenshot_15.png)
