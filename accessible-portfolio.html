@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/grid-styles.css">
-    <title>Lab 6</title>
+    <link rel="stylesheet" href="css/accessible-styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+    <title>Lab 7</title>
 </head>
 
 <body>
     <header class="block">
 
-        <img class="logo" src="img/logo_6.png" alt="Логотип EcoDelivery">
+        <img class="logo" src="img/logo_6.png" alt="Логотип">
 
         <nav>
             <a href="#portfolio">Портфолио</a>
             <a href="#aboutMe">Обо мне</a>
             <a href="#contsct">Контакты</a>
+            <a class="skip-link" href="#main">Перейти к контенту</a>
         </nav>
 
     </header>
@@ -45,7 +47,6 @@
             </div>
             <div class="card">
                 <img src="img/pr4.png" alt="Портфолио_4">
-            </div>
             </div>
             <div class="card">
                 <img src="img/pr5.jpg" alt="Портфолио_5">
@@ -88,23 +89,49 @@
     </main>
     <footer id="contsct" class="block">
 
-        <section>
-            <h2>Связаться со мной:</h2>
-            <p>+7 (899) 999-99-99</p>
-            <a href="mailto:hello@ecodelivery.ru">hello@ecodelivery.ru</a>
+        <section class="contsctinfo">
+            <section>
+                <h2>Связаться со мной:</h2>
+                <p>+7 (899) 999-99-99</p>
+                <a href="mailto:hello@ecodelivery.ru">hello@ecodelivery.ru</a>
+            </section>
+
+            <section>
+                <h2>Социальные сети</h2>
+                <a class="logo" href="mailto:hello@ecodelivery.ru">
+                    <img class="logo" src="img/inst.png" alt="Instagram">
+                </a>
+                <a class="logo" href="mailto:hello@ecodelivery.ru">
+                    <img class="logo" src="img/vk.png" alt="vk">
+                </a>
+            </section>
+
         </section>
 
-        <section>
-            <h2>Социальные сети</h2>
-            <a class="logo" href="mailto:hello@ecodelivery.ru">
-                <img class="logo" src="img/inst.png" alt="Instagram">
-            </a>
-            <a class="logo" href="mailto:hello@ecodelivery.ru">
-                <img class="logo" src="img/vk.png" alt="vk">
-            </a>
-        </section>
+        <form method="get" class="styleform block">
+            <label>
+                Имя:
+                <input id="name" type="text" name="name" placeholder="Иван" required>
+            
+            </label>
+            <label>
+                Электронная почта:
+                <input id="email" type="email" name="email" placeholder="design@gmail.com" required>
+      
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                Подписаться на рассылку
+            </label>
+
+            <button class="btn" type="submit">
+                Отправить
+            </button>
+        </form>
 
     </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
 
